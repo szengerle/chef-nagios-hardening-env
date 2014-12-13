@@ -7,7 +7,7 @@
         "recipe[chef-solo-search]",
         "recipe[ntp]",
         "recipe[os-hardening]",
-        "recipe[ssh-hardening]"
+        "recipe[ssh-hardening]",
         "recipe[nagios]"
     ],
     "default_attributes": {},

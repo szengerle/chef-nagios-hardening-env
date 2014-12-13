@@ -1,0 +1,4 @@
+{
+  "id": "host",
+  "check_command": "check-host-alive"
+}

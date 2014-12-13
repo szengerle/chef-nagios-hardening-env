@@ -1,0 +1,7 @@
+{
+  "address": "127.0.0.1",
+  "hostgroups": ["linux"],
+  "id": "localhost",
+  "notifications": 1,
+  "host_template": "host"
+}
