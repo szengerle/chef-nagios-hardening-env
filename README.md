@@ -1,5 +1,4 @@
 #chef-nagios-hardening-env
-=====================
 
 vagrant testing environment for chef-nagios-hardening
 
@@ -11,3 +10,23 @@ vagrant testing environment for chef-nagios-hardening
 - `nagios`-module installs nagios
 - contactgroup, hosttemplate, service, host, users are needed to start nagios
 - these nagios objects are configured in data_bags
+
+## Usage with Vagrant
+
+Get all required cookbooks locally
+
+```bash
+berks vendor cookbooks
+```
+
+Now fire up vagrant
+
+```bash
+vagrant up
+```
+
+That's it. Enjoy testing your box via:
+
+```bash
+vagrant ssh
+```
